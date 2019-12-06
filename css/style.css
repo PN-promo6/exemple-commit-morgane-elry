@@ -1,0 +1,129 @@
+body {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(198, 198, 198, 1) 100%);
+  margin: 0 auto;
+}
+
+.cleanfix {
+  clear: both;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.shadow-light {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+.main-nav ul li {
+  display: inline-block;
+  padding: 12px
+}
+
+.main-nav {
+  text-align: center;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+header, article {
+  border: 1px solid #C3C0B1;
+  padding: 1em 2em;
+}
+
+header {
+  text-align: center;
+  background: url("../image/papyrus.png") center;
+  padding-right: 0;
+  padding-left: 0;
+  -background-size: no-repeat cover;
+}
+
+nav, article, header {
+  margin-bottom: 20px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', serif;
+}
+
+h1 {
+  font-size: 2.9em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #692A8B;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.6em;
+  font-weight: bolder;
+}
+
+h5 {
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+h6 {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+a, a:hover, a:focus, a:visited, a:active {
+  color: #9E3FD0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav, article {
+  background-color: #ffffff;
+}
+
+header img {
+  height: 20rem;
+  border-radius: 50%
+}
+
+footer {
+  background-color: #C55CFD;
+}
+
+section {
+  width: 68%;
+}
+
+section img {
+  width: 5rem;
+  float: right;
+}
+
+aside {
+  width: 30%;
+  margin-left: 2%;
+}
+
+section {
+  float: left;
+}
